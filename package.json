@@ -1,0 +1,47 @@
+{
+  "name": "leetcode-enjoyer",
+  "version": "1.0.0",
+  "description": "LeetCode practice workspace with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "t": "node test-runner.js",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:easy": "jest easy/",
+    "test:medium": "jest medium/",
+    "test:hard": "jest hard/"
+  },
+  "keywords": [
+    "leetcode",
+    "algorithms",
+    "data-structures",
+    "javascript",
+    "jest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/*.test.js"
+    ],
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!**/*.test.js",
+      "!node_modules/**",
+      "!coverage/**"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duythenights/leetcode-enjoyer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/duythenights/leetcode-enjoyer/issues"
+  },
+  "homepage": "https://github.com/duythenights/leetcode-enjoyer#readme"
+}

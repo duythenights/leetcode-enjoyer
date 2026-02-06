@@ -28,6 +28,7 @@ leetcode-enjoyer/
 
 ### 3. **Track Your Progress**
 
+- ✅ **[View Blind 75 Checklist](./BLIND75.md)** - Track your progress on the most important interview questions
 - Keep all your solutions organized by difficulty
 - Add comments and notes for future reference
 - Use Git for version control (recommended)
